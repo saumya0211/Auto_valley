@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.flutter.plugins.imagepicker.test" >
+4
+5    <uses-sdk
+5-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:11:5-13:85
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:11:22-75
+11        android:label="Tests for io.flutter.plugins.imagepicker.test"
+11-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:13:22-83
+12        android:targetPackage="io.flutter.plugins.imagepicker.test" />
+12-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:12:22-81
+13
+14    <uses-permission android:name="android.permission.REORDER_TASKS" />
+14-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:24:5-72
+14-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:24:22-69
+15
+16    <application
+16-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] D:\App Projects\src\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true" >
+18-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:8:9-60
+19-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\tmp\manifest\test\release\tempFile1ProcessTestManifest617182150651793401.xml:8:23-57
+20
+21        <provider
+21-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+22            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+22-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+23            android:authorities="io.flutter.plugins.imagepicker.test.flutter.image_provider"
+23-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+24            android:exported="false"
+24-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+25            android:grantUriPermissions="true" >
+25-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+26            <meta-data
+26-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+27                android:name="android.support.FILE_PROVIDER_PATHS"
+27-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+28                android:resource="@xml/flutter_image_picker_file_paths" />
+28-->[:image_picker_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+29        </provider>
+30
+31        <activity
+31-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:27:9-33:20
+32            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+32-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:28:13-99
+33            android:theme="@android:style/Theme" >
+33-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:29:13-49
+34            <intent-filter>
+34-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:31:17-69
+35-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:31:25-66
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:34:9-40:20
+39            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+39-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:35:13-95
+40            android:theme="@android:style/Theme" >
+40-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:36:13-49
+41            <intent-filter>
+41-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:31:17-69
+42-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:31:25-66
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:41:9-47:20
+46            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+46-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:42:13-103
+47            android:theme="@android:style/Theme.Dialog" >
+47-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:43:13-56
+48            <intent-filter>
+48-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:30:13-32:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:31:17-69
+49-->[androidx.test:core:1.2.0] D:\App Projects\src\caches\transforms-3\bf833368e537223a417b554dea95f496\transformed\jetified-core-1.2.0\AndroidManifest.xml:31:25-66
+50            </intent-filter>
+51        </activity>
+52
+53        <uses-library
+53-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+54            android:name="androidx.window.extensions"
+54-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+56        <uses-library
+56-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+57            android:name="androidx.window.sidecar"
+57-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+59    </application>
+60
+61</manifest>

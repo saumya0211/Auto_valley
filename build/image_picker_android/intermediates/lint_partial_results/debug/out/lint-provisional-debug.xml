@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.1.2" type="conditional_incidents">
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:image_picker_android*debug*sourceProvider*0*javaDir*0}/io/flutter/plugins/imagepicker/ImagePickerDelegate.java"
+            line="417"
+            column="24"
+            startOffset="15041"
+            endLine="417"
+            endColumn="45"
+            endOffset="15062"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+</incidents>

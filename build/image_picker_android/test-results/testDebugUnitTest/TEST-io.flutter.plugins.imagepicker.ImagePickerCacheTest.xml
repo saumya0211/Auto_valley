@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.flutter.plugins.imagepicker.ImagePickerCacheTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-25T07:32:45" hostname="LAPTOP-ADPB0ICQ" time="4.807">
+  <properties/>
+  <testcase name="ImageCache_ShouldBeAbleToSetAndGetQuality" classname="io.flutter.plugins.imagepicker.ImagePickerCacheTest" time="4.807"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

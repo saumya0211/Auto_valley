@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="D:\App Projects\src\flutter\.pub-cache\hosted\pub.dartlang.org\geocoding-2.0.4\android"
+    name=":geocoding"
+    type="LIBRARY"
+    maven="com.baseflow.geocoding:geocoding:"
+    gradle="7.1.2"
+    buildFolder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geocoding"
+    bootClassPath="C:\Users\Saumya\AppData\Local\Android\sdk\platforms\android-31\android.jar;C:\Users\Saumya\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="debug"/>
+</lint-module>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-06-25T07:32:50" hostname="LAPTOP-ADPB0ICQ" time="0.882">
+  <properties/>
+  <testcase name="takeImageWithCamera_WhenHasCameraPermission_AndNoActivityToHandleCameraIntent_FinishesWithNoCamerasAvailableError" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.679"/>
+  <testcase name="onActivityResult_WhenImagePickedFromGallery_AndNoResizeNeeded_FinishesWithImagePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.006"/>
+  <testcase name="onActivityResult_WhenPickFromGalleryCanceled_FinishesWithNull" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.007"/>
+  <testcase name="onActivityResult_WhenImageTakenWithCamera_AndResizeNeeded_FinishesWithScaledImagePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.014"/>
+  <testcase name="chooseImageFromGallery_WhenPendingResultExists_FinishesWithAlreadyActiveError" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.01"/>
+  <testcase name="whenConstructed_setsCorrectFileProviderName" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.011"/>
+  <testcase name="onActivityResult_WhenVideoTakenWithCamera_AndMaxDurationParametersSupplied_FinishesWithFilePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.01"/>
+  <testcase name="onActivityResult_WhenVideoPickedFromGallery_AndResizeParametersSupplied_FinishesWithFilePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.013"/>
+  <testcase name="onRequestTakeVideoPermissionsResult_WhenCameraPermissionGranted_LaunchesTakeVideoWithCameraIntent" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.011"/>
+  <testcase name="onRequestTakeImagePermissionsResult_WhenCameraPermissionGranted_LaunchesTakeWithCameraIntent" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.01"/>
+  <testcase name="takeImageWithCamera_WritesImageToCacheDirectory" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.011"/>
+  <testcase name="onActivityResult_WhenTakeImageWithCameraCanceled_FinishesWithNull" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.008"/>
+  <testcase name="onRequestPermissionsResult_WhenCameraPermissionDenied_FinishesWithError" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.009"/>
+  <testcase name="onActivityResult_WhenImagePickedFromGallery_AndResizeNeeded_FinishesWithScaledImagePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.008"/>
+  <testcase name="retrieveLostImage_ShouldBeAbleToReturnLastItemFromResultMapWhenSingleFileIsRecovered" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.018"/>
+  <testcase name="takeImageWithCamera_WhenHasCameraPermission_AndAnActivityCanHandleCameraIntent_LaunchesTakeWithCameraIntent" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.014"/>
+  <testcase name="takeImageWithCamera_WhenPendingResultExists_FinishesWithAlreadyActiveError" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.006"/>
+  <testcase name="onActivityResult_WhenImageTakenWithCamera_AndNoResizeNeeded_FinishesWithImagePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.005"/>
+  <testcase name="chooseMultiImageFromGallery_WhenPendingResultExists_FinishesWithAlreadyActiveError" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.007"/>
+  <testcase name="onActivityResult_WhenVideoTakenWithCamera_AndResizeParametersSupplied_FinishesWithFilePath" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.005"/>
+  <testcase name="takeImageWithCamera_WhenHasNoCameraPermission_RequestsForPermission" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.005"/>
+  <testcase name="takeImageWithCamera_WhenCameraPermissionNotPresent_RequestsForPermission" classname="io.flutter.plugins.imagepicker.ImagePickerDelegateTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

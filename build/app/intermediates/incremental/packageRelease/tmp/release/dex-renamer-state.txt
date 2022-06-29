@@ -1,0 +1,4 @@
+#Tue Jun 28 17:49:23 IST 2022
+base.0=D\:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

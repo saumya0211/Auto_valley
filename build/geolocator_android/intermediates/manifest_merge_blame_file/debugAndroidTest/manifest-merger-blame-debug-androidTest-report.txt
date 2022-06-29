@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.baseflow.geolocator.test" >
+4
+5    <uses-sdk
+5-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:11:5-15:78
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:13:22-53
+13        android:label="Tests for com.baseflow.geolocator.test"
+13-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:15:22-76
+14        android:targetPackage="com.baseflow.geolocator.test" />
+14-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:12:22-74
+15
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+16-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+17
+18    <application
+18-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.6.0] D:\App Projects\src\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true" >
+21        <uses-library android:name="android.test.runner" />
+21-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:8:9-60
+21-->D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest4512308780374447865.xml:8:23-57
+22
+23        <service
+23-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+24            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+24-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+25            android:enabled="true"
+25-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+26            android:exported="false"
+26-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+27            android:foregroundServiceType="location" />
+27-->[:geolocator_android] D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+28
+29        <activity
+29-->[com.google.android.gms:play-services-base:17.0.0] D:\App Projects\src\caches\transforms-3\1ea967b797818d9badf6aaa0240ca184\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+30            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+30-->[com.google.android.gms:play-services-base:17.0.0] D:\App Projects\src\caches\transforms-3\1ea967b797818d9badf6aaa0240ca184\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+31            android:exported="false"
+31-->[com.google.android.gms:play-services-base:17.0.0] D:\App Projects\src\caches\transforms-3\1ea967b797818d9badf6aaa0240ca184\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+32            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+32-->[com.google.android.gms:play-services-base:17.0.0] D:\App Projects\src\caches\transforms-3\1ea967b797818d9badf6aaa0240ca184\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+33
+34        <meta-data
+34-->[com.google.android.gms:play-services-basement:17.0.0] D:\App Projects\src\caches\transforms-3\4ef803ba34d31dcf48df123a27eb5d76\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+35            android:name="com.google.android.gms.version"
+35-->[com.google.android.gms:play-services-basement:17.0.0] D:\App Projects\src\caches\transforms-3\4ef803ba34d31dcf48df123a27eb5d76\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+36            android:value="@integer/google_play_services_version" />
+36-->[com.google.android.gms:play-services-basement:17.0.0] D:\App Projects\src\caches\transforms-3\4ef803ba34d31dcf48df123a27eb5d76\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+37
+38        <uses-library
+38-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+39            android:name="androidx.window.extensions"
+39-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+40            android:required="false" />
+40-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+41        <uses-library
+41-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+42            android:name="androidx.window.sidecar"
+42-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0-beta04] D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+44    </application>
+45
+46</manifest>

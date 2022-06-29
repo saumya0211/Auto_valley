@@ -1,0 +1,617 @@
+<libraries>
+  <library
+      name="__local_aars__:D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\app\intermediates\flutter\debug\libs.jar:unspecified@jar"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\app\intermediates\flutter\debug\libs.jar"
+      resolved="__local_aars__:D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\app\intermediates\flutter\debug\libs.jar:unspecified"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:geolocator_android::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\.transforms\0c8296232fb21b9286919f8e336824c4\transformed\out\jars\classes.jar"
+      resolved="com.baseflow.geolocator:geolocator_android:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geolocator_android\.transforms\0c8296232fb21b9286919f8e336824c4\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:flutter_plugin_android_lifecycle::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\flutter_plugin_android_lifecycle\.transforms\7b2e9260ad40c2f5c25a17ff196767f6\transformed\out\jars\classes.jar"
+      resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\flutter_plugin_android_lifecycle\.transforms\7b2e9260ad40c2f5c25a17ff196767f6\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:sqflite::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\sqflite\.transforms\3b8f4158cf8d8ae06f1f88fcebd3e6b9\transformed\out\jars\classes.jar"
+      resolved="com.tekartik.sqflite:sqflite:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\sqflite\.transforms\3b8f4158cf8d8ae06f1f88fcebd3e6b9\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:url_launcher_android::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\url_launcher_android\.transforms\f060455ada382916584952696d9c8fff\transformed\out\jars\classes.jar"
+      resolved="io.flutter.plugins.urllauncher:url_launcher_android:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\url_launcher_android\.transforms\f060455ada382916584952696d9c8fff\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:path_provider_android::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\path_provider_android\.transforms\946ce002d6af2ccee260d6aa8ed9dd16\transformed\out\jars\classes.jar"
+      resolved="io.flutter.plugins.pathprovider:path_provider_android:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\path_provider_android\.transforms\946ce002d6af2ccee260d6aa8ed9dd16\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:smart_auth::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\smart_auth\.transforms\cf12c5796a93475dc84b64bb331f3e13\transformed\out\jars\classes.jar"
+      resolved="fman.ge.smart_auth:smart_auth:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\smart_auth\.transforms\cf12c5796a93475dc84b64bb331f3e13\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:shared_preferences_android::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\shared_preferences_android\.transforms\2019117809f690434164c8796a62611b\transformed\out\jars\classes.jar"
+      resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\shared_preferences_android\.transforms\2019117809f690434164c8796a62611b\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:geocoding::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geocoding\.transforms\bef180ecb61cb6b9379764f37061c086\transformed\out\jars\classes.jar"
+      resolved="com.baseflow.geocoding:geocoding:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\geocoding\.transforms\bef180ecb61cb6b9379764f37061c086\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:share_plus::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\share_plus\.transforms\3cb61478c72b0571f66f393f9afea655\transformed\out\jars\classes.jar"
+      resolved="dev.fluttercommunity.plus.share:share_plus:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\share_plus\.transforms\3cb61478c72b0571f66f393f9afea655\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:flutter_launch::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\flutter_launch\.transforms\59039d0722c1d43cfba3ca8d8a35d5ba\transformed\out\jars\classes.jar"
+      resolved="br.com.thyagoluciano.flutter_launch:flutter_launch:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\flutter_launch\.transforms\59039d0722c1d43cfba3ca8d8a35d5ba\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:location::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\location\.transforms\003ea00f87caebc1e8354cd03db2bc3d\transformed\out\jars\classes.jar"
+      resolved="com.lyokone.location:location:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\location\.transforms\003ea00f87caebc1e8354cd03db2bc3d\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\android@@:image_picker_android::debug"
+      jars="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\.transforms\746bcb888b888fc06f74d0157c03525f\transformed\out\jars\classes.jar"
+      resolved="io.flutter.plugins.imagepicker:image_picker_android:unspecified"
+      folder="D:\App Projects\REAL PROJECTS BAKI SAB TEMPLATE\auto_valley\build\image_picker_android\.transforms\746bcb888b888fc06f74d0157c03525f\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="io.flutter:armeabi_v7a_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\io.flutter\armeabi_v7a_debug\1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4\874928d725f715c3a7a940536658f7d0fc089888\armeabi_v7a_debug-1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4.jar"
+      resolved="io.flutter:armeabi_v7a_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4"/>
+  <library
+      name="io.flutter:arm64_v8a_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\io.flutter\arm64_v8a_debug\1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4\60e61d01f7dae1b7205dd60d5b35968e4d3f8acf\arm64_v8a_debug-1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4.jar"
+      resolved="io.flutter:arm64_v8a_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4"/>
+  <library
+      name="io.flutter:x86_64_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\io.flutter\x86_64_debug\1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4\422b6b90dcdcf93fe6dd0f0ccd3e3024e6af1bb1\x86_64_debug-1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4.jar"
+      resolved="io.flutter:x86_64_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4"/>
+  <library
+      name="io.flutter:x86_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\io.flutter\x86_debug\1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4\ba846fdbed50d2429893a03564adacdedc5e91d3\x86_debug-1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4.jar"
+      resolved="io.flutter:x86_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4"/>
+  <library
+      name="io.flutter:flutter_embedding_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\io.flutter\flutter_embedding_debug\1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4\60b985b36e07a769b212cfae3e6260cfdd15c240\flutter_embedding_debug-1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4.jar"
+      resolved="io.flutter:flutter_embedding_debug:1.0.0-ffe7b86a1e5b5cb63c8385ae1adc759e372ee8f4"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common-java8:2.2.0@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.2.0\cd3478503da69b1a7e0319bd2d1389943db9b364\lifecycle-common-java8-2.2.0.jar"
+      resolved="androidx.lifecycle:lifecycle-common-java8:2.2.0"/>
+  <library
+      name="com.google.android.gms:play-services-location:17.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\5c6674025aa166b1f070d7413d5e9fd9\transformed\jetified-play-services-location-17.0.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-location:17.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\5c6674025aa166b1f070d7413d5e9fd9\transformed\jetified-play-services-location-17.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-base:18.0.1@aar"
+      jars="D:\App Projects\src\caches\transforms-3\3ff720be07735976176520d1c05fb799\transformed\jetified-play-services-base-18.0.1\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-base:18.0.1"
+      folder="D:\App Projects\src\caches\transforms-3\3ff720be07735976176520d1c05fb799\transformed\jetified-play-services-base-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-places-placereport:17.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-places-placereport:17.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-tasks:18.0.1@aar"
+      jars="D:\App Projects\src\caches\transforms-3\67879e22102fb65217d23e347f5e9c0d\transformed\jetified-play-services-tasks-18.0.1\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-tasks:18.0.1"
+      folder="D:\App Projects\src\caches\transforms-3\67879e22102fb65217d23e347f5e9c0d\transformed\jetified-play-services-tasks-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-basement:18.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\601d4158b382ad9f634d3bbb23a34c83\transformed\jetified-play-services-basement-18.0.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-basement:18.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\601d4158b382ad9f634d3bbb23a34c83\transformed\jetified-play-services-basement-18.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.fragment:fragment:1.1.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\0e0e1a382b52c0572988a1c50e96d2f7\transformed\fragment-1.1.0\jars\classes.jar"
+      resolved="androidx.fragment:fragment:1.1.0"
+      folder="D:\App Projects\src\caches\transforms-3\0e0e1a382b52c0572988a1c50e96d2f7\transformed\fragment-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.viewpager:viewpager:1.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\045d2e69ed718df502093495707de7d0\transformed\viewpager-1.0.0\jars\classes.jar"
+      resolved="androidx.viewpager:viewpager:1.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\045d2e69ed718df502093495707de7d0\transformed\viewpager-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.loader:loader:1.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\906f41b23948e23cf276f1b1ba5ed41e\transformed\loader-1.0.0\jars\classes.jar"
+      resolved="androidx.loader:loader:1.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\906f41b23948e23cf276f1b1ba5ed41e\transformed\loader-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.activity:activity:1.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\8fa8bdf086632123dcb3f9226ab7b2b9\transformed\jetified-activity-1.0.0\jars\classes.jar"
+      resolved="androidx.activity:activity:1.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\8fa8bdf086632123dcb3f9226ab7b2b9\transformed\jetified-activity-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.customview:customview:1.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\d411e96186971239cc9320701a4aa95b\transformed\customview-1.0.0\jars\classes.jar"
+      resolved="androidx.customview:customview:1.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\d411e96186971239cc9320701a4aa95b\transformed\customview-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.core:core:1.7.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\5e083c06c9925c2309f02468fc66e376\transformed\core-1.7.0\jars\classes.jar"
+      resolved="androidx.core:core:1.7.0"
+      folder="D:\App Projects\src\caches\transforms-3\5e083c06c9925c2309f02468fc66e376\transformed\core-1.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-runtime:2.3.1@aar"
+      jars="D:\App Projects\src\caches\transforms-3\8a5514d4341f323606d890e29d4268b9\transformed\lifecycle-runtime-2.3.1\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime:2.3.1"
+      folder="D:\App Projects\src\caches\transforms-3\8a5514d4341f323606d890e29d4268b9\transformed\lifecycle-runtime-2.3.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.savedstate:savedstate:1.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\61be2594815516b1d798e8de806d8dcb\transformed\jetified-savedstate-1.0.0\jars\classes.jar"
+      resolved="androidx.savedstate:savedstate:1.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\61be2594815516b1d798e8de806d8dcb\transformed\jetified-savedstate-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata:2.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\4d571c0d2420042bbe5204d312a62bb2\transformed\lifecycle-livedata-2.0.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata:2.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\4d571c0d2420042bbe5204d312a62bb2\transformed\lifecycle-livedata-2.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\ab7ce279708bbb9e6bfa95c7580f1bb9\transformed\lifecycle-livedata-core-2.0.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-livedata-core:2.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\ab7ce279708bbb9e6bfa95c7580f1bb9\transformed\lifecycle-livedata-core-2.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-common:2.3.1@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.3.1\fc466261d52f4433863642fb40d12441ae274a98\lifecycle-common-2.3.1.jar"
+      resolved="androidx.lifecycle:lifecycle-common:2.3.1"/>
+  <library
+      name="androidx.arch.core:core-runtime:2.1.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\b0ed3bc1190a335fc620be73cef0fa31\transformed\core-runtime-2.1.0\jars\classes.jar"
+      resolved="androidx.arch.core:core-runtime:2.1.0"
+      folder="D:\App Projects\src\caches\transforms-3\b0ed3bc1190a335fc620be73cef0fa31\transformed\core-runtime-2.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.arch.core:core-common:2.1.0@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.1.0\b3152fc64428c9354344bd89848ecddc09b6f07e\core-common-2.1.0.jar"
+      resolved="androidx.arch.core:core-common:2.1.0"/>
+  <library
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="D:\App Projects\src\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1\jars\classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="D:\App Projects\src\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.collection:collection:1.1.0@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
+      resolved="androidx.collection:collection:1.1.0"/>
+  <library
+      name="androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-viewmodel:2.1.0"
+      folder="D:\App Projects\src\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.annotation:annotation:1.3.0@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\androidx.annotation\annotation\1.3.0\21f49f5f9b85fc49de712539f79123119740595\annotation-1.3.0.jar"
+      resolved="androidx.annotation:annotation:1.3.0"/>
+  <library
+      name="androidx.annotation:annotation-experimental:1.1.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0\jars\classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.1.0"
+      folder="D:\App Projects\src\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.tracing:tracing:1.0.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\9a15d0431946b4658756ca271d093b65\transformed\jetified-tracing-1.0.0\jars\classes.jar"
+      resolved="androidx.tracing:tracing:1.0.0"
+      folder="D:\App Projects\src\caches\transforms-3\9a15d0431946b4658756ca271d093b65\transformed\jetified-tracing-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.window:window-java:1.0.0-beta04@aar"
+      jars="D:\App Projects\src\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\jars\classes.jar"
+      resolved="androidx.window:window-java:1.0.0-beta04"
+      folder="D:\App Projects\src\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.window:window:1.0.0-beta04@aar"
+      jars="D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\jars\classes.jar"
+      resolved="androidx.window:window:1.0.0-beta04"
+      folder="D:\App Projects\src\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-android\1.5.2\d246a704a55b7bddb79407cce4348890eaa341d9\kotlinx-coroutines-android-1.5.2.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"/>
+  <library
+      name="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.5.2\f4cc07a50437659e0043e7da762809a46932b6a0\kotlinx-coroutines-core-jvm-1.5.2.jar"
+      resolved="org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.6.10\e80fe6ac3c3573a80305f5ec43f86b829e8ab53d\kotlin-stdlib-jdk8-1.6.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.6.10\e1c380673654a089c4f0c9f83d0ddfdc1efdb498\kotlin-stdlib-jdk7-1.6.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib:1.6.10@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.6.10\b8af3fe6f1ca88526914929add63cf5e7c5049af\kotlin-stdlib-1.6.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.6.10"/>
+  <library
+      name="org.jetbrains:annotations:13.0@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
+      resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.6.10\c118700e3a33c8a0d9adc920e9dec0831171925\kotlin-stdlib-common-1.6.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10"/>
+  <library
+      name="androidx.core:core-ktx:1.7.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\6139a76278c95f105a1f0928a8b80a46\transformed\jetified-core-ktx-1.7.0\jars\classes.jar"
+      resolved="androidx.core:core-ktx:1.7.0"
+      folder="D:\App Projects\src\caches\transforms-3\6139a76278c95f105a1f0928a8b80a46\transformed\jetified-core-ktx-1.7.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-auth:20.1.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\87b66fbc4102b6b73e9917292c412064\transformed\jetified-play-services-auth-20.1.0\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-auth:20.1.0"
+      folder="D:\App Projects\src\caches\transforms-3\87b66fbc4102b6b73e9917292c412064\transformed\jetified-play-services-auth-20.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-auth-api-phone:18.0.1@aar"
+      jars="D:\App Projects\src\caches\transforms-3\e763700ee4733303bfed9326998abc6e\transformed\jetified-play-services-auth-api-phone-18.0.1\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-auth-api-phone:18.0.1"
+      folder="D:\App Projects\src\caches\transforms-3\e763700ee4733303bfed9326998abc6e\transformed\jetified-play-services-auth-api-phone-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.google.android.gms:play-services-auth-base:18.0.1@aar"
+      jars="D:\App Projects\src\caches\transforms-3\201017f45f7f2ad4098133fb1f2808fa\transformed\jetified-play-services-auth-base-18.0.1\jars\classes.jar"
+      resolved="com.google.android.gms:play-services-auth-base:18.0.1"
+      folder="D:\App Projects\src\caches\transforms-3\201017f45f7f2ad4098133fb1f2808fa\transformed\jetified-play-services-auth-base-18.0.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.exifinterface:exifinterface:1.3.0@aar"
+      jars="D:\App Projects\src\caches\transforms-3\3c2cd5d02dac37b86afde54c4d89c77a\transformed\exifinterface-1.3.0\jars\classes.jar"
+      resolved="androidx.exifinterface:exifinterface:1.3.0"
+      folder="D:\App Projects\src\caches\transforms-3\3c2cd5d02dac37b86afde54c4d89c77a\transformed\exifinterface-1.3.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.concurrent:concurrent-futures:1.0.0@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\androidx.concurrent\concurrent-futures\1.0.0\c1e77e3ee6f4643b77496a1ddf7a2eef1aefdaa1\concurrent-futures-1.0.0.jar"
+      resolved="androidx.concurrent:concurrent-futures:1.0.0"/>
+  <library
+      name="com.google.guava:guava:28.1-android@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\com.google.guava\guava\28.1-android\c2526f8fad32a65a6d7032dd8e9524eb276b108b\guava-28.1-android.jar"
+      resolved="com.google.guava:guava:28.1-android"/>
+  <library
+      name="com.google.guava:failureaccess:1.0.1@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar"
+      resolved="com.google.guava:failureaccess:1.0.1"/>
+  <library
+      name="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
+      resolved="com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"/>
+  <library
+      name="com.google.code.findbugs:jsr305:3.0.2@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar"
+      resolved="com.google.code.findbugs:jsr305:3.0.2"/>
+  <library
+      name="org.checkerframework:checker-compat-qual:2.5.5@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.checkerframework\checker-compat-qual\2.5.5\435dc33e3019c9f019e15f01aa111de9d6b2b79c\checker-compat-qual-2.5.5.jar"
+      resolved="org.checkerframework:checker-compat-qual:2.5.5"/>
+  <library
+      name="com.google.errorprone:error_prone_annotations:2.3.2@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.3.2\d1a0c5032570e0f64be6b4d9c90cdeb103129029\error_prone_annotations-2.3.2.jar"
+      resolved="com.google.errorprone:error_prone_annotations:2.3.2"/>
+  <library
+      name="com.google.j2objc:j2objc-annotations:1.3@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar"
+      resolved="com.google.j2objc:j2objc-annotations:1.3"/>
+  <library
+      name="org.codehaus.mojo:animal-sniffer-annotations:1.18@jar"
+      jars="D:\App Projects\src\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.18\f7aa683ea79dc6681ee9fb95756c999acbb62f5d\animal-sniffer-annotations-1.18.jar"
+      resolved="org.codehaus.mojo:animal-sniffer-annotations:1.18"/>
+</libraries>

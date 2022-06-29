@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.flutter.plugins.imagepicker.ImageResizerTest" tests="5" skipped="0" failures="4" errors="0" timestamp="2022-06-25T07:32:51" hostname="LAPTOP-ADPB0ICQ" time="1.937">
+  <properties/>
+  <testcase name="onResizeImageIfNeeded_WhenQualityIsNotNull_ShoulResize_ReturnResizedFile" classname="io.flutter.plugins.imagepicker.ImageResizerTest" time="1.759">
+    <failure message="java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit14449576592117417834\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)" type="java.lang.RuntimeException">java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit14449576592117417834\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:52)
+	at io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenQualityIsNotNull_ShoulResize_ReturnResizedFile(ImageResizerTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:546)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:252)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit14449576592117417834\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
+	at io.flutter.plugins.imagepicker.ImageResizer.createOutputStream(ImageResizer.java:116)
+	at io.flutter.plugins.imagepicker.ImageResizer.createImageOnExternalDirectory(ImageResizer.java:149)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizedImage(ImageResizer.java:103)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:48)
+	... 17 more
+</failure>
+  </testcase>
+  <testcase name="onResizeImageIfNeeded_WhenQualityIsNull_ShoultNotResize_ReturnTheUnscaledFile" classname="io.flutter.plugins.imagepicker.ImageResizerTest" time="0.043"/>
+  <testcase name="onResizeImageIfNeeded_WhenWidthIsNotNull_ShoulResize_ReturnResizedFile" classname="io.flutter.plugins.imagepicker.ImageResizerTest" time="0.041">
+    <failure message="java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit15117359202447189508\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)" type="java.lang.RuntimeException">java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit15117359202447189508\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:52)
+	at io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenWidthIsNotNull_ShoulResize_ReturnResizedFile(ImageResizerTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:546)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:252)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit15117359202447189508\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
+	at io.flutter.plugins.imagepicker.ImageResizer.createOutputStream(ImageResizer.java:116)
+	at io.flutter.plugins.imagepicker.ImageResizer.createImageOnExternalDirectory(ImageResizer.java:149)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizedImage(ImageResizer.java:103)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:48)
+	... 17 more
+</failure>
+  </testcase>
+  <testcase name="onResizeImageIfNeeded_WhenHeightIsNotNull_ShoulResize_ReturnResizedFile" classname="io.flutter.plugins.imagepicker.ImageResizerTest" time="0.036">
+    <failure message="java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit13659026436361408957\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)" type="java.lang.RuntimeException">java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit13659026436361408957\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:52)
+	at io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenHeightIsNotNull_ShoulResize_ReturnResizedFile(ImageResizerTest.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:546)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:252)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit13659026436361408957\image_picker_testing_path\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
+	at io.flutter.plugins.imagepicker.ImageResizer.createOutputStream(ImageResizer.java:116)
+	at io.flutter.plugins.imagepicker.ImageResizer.createImageOnExternalDirectory(ImageResizer.java:149)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizedImage(ImageResizer.java:103)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:48)
+	... 17 more
+</failure>
+  </testcase>
+  <testcase name="onResizeImageIfNeeded_WhenParentDirectoryDoesNotExists_ShouldNotCrash" classname="io.flutter.plugins.imagepicker.ImageResizerTest" time="0.058">
+    <failure message="java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit1356696352211111760\image_picker_testing_path\nonExistent\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)" type="java.lang.RuntimeException">java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit1356696352211111760\image_picker_testing_path\nonExistent\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:52)
+	at io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenParentDirectoryDoesNotExists_ShouldNotCrash(ImageResizerTest.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.robolectric.RobolectricTestRunner$HelperTestRunner$1.evaluate(RobolectricTestRunner.java:546)
+	at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$0(SandboxTestRunner.java:252)
+	at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:89)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.io.FileNotFoundException: C:\Users\Saumya\AppData\Local\Temp\junit1356696352211111760\image_picker_testing_path\nonExistent\scaled_D:\App%20Projects\REAL%20PROJECTS%20BAKI%20SAB%20TEMPLATE\auto_valley\build\image_picker_android\intermediates\java_res\debugUnitTest\out\pngImage.png (The filename, directory name, or volume label syntax is incorrect)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:237)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:187)
+	at io.flutter.plugins.imagepicker.ImageResizer.createOutputStream(ImageResizer.java:116)
+	at io.flutter.plugins.imagepicker.ImageResizer.createImageOnExternalDirectory(ImageResizer.java:149)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizedImage(ImageResizer.java:103)
+	at io.flutter.plugins.imagepicker.ImageResizer.resizeImageIfNeeded(ImageResizer.java:48)
+	... 17 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[[Robolectric] io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenQualityIsNotNull_ShoulResize_ReturnResizedFile: sdk=16; resources=BINARY
+[Robolectric] io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenQualityIsNull_ShoultNotResize_ReturnTheUnscaledFile: sdk=16; resources=BINARY
+[Robolectric] io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenWidthIsNotNull_ShoulResize_ReturnResizedFile: sdk=16; resources=BINARY
+[Robolectric] io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenHeightIsNotNull_ShoulResize_ReturnResizedFile: sdk=16; resources=BINARY
+[Robolectric] io.flutter.plugins.imagepicker.ImageResizerTest.onResizeImageIfNeeded_WhenParentDirectoryDoesNotExists_ShouldNotCrash: sdk=16; resources=BINARY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

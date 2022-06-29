@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561347207397",
+    "project_id": "autovally-4879f",
+    "storage_bucket": "autovally-4879f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561347207397:android:0362613aa17b16b9b7b40c",
+        "android_client_info": {
+          "package_name": "com.example.auto_valley"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561347207397-e404e0u21g7jaje52vcgfpm00taee4pl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auto_valley",
+            "certificate_hash": "3a1c80694c1849f0ca0f368c59a11d03629a8f8b"
+          }
+        },
+        {
+          "client_id": "561347207397-ofb1eaaqlld9vno43sfb7e08pv0q8coc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5fa777aYRK_79gdmQQWhrJJD0phToEDw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561347207397-ofb1eaaqlld9vno43sfb7e08pv0q8coc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
