@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class TextFormFieldUI extends StatelessWidget {
  final String hintText;
@@ -9,6 +10,7 @@ class TextFormFieldUI extends StatelessWidget {
  final String ? Function(String?)? validatefunction ;
  final void Function(String?)? onSave;
  String ? initialValue;
+ List<TextInputFormatter>? inputFormatter;
 
  TextFormFieldUI({
    required this.inputicon,
@@ -19,6 +21,7 @@ class TextFormFieldUI extends StatelessWidget {
    this.isPassword = false,
    this.isEmail = false,
    this.initialValue ,
+   this.inputFormatter,
 });
 
   @override
@@ -30,6 +33,7 @@ class TextFormFieldUI extends StatelessWidget {
         initialValue: initialValue,
         onSaved: onSave,
         keyboardType: isEmail ? TextInputType.emailAddress : TextInputType.text,
+        inputFormatters: inputFormatter,
         validator: validatefunction,
         obscureText: isPassword ? true : false ,
         decoration: InputDecoration(

@@ -1,5 +1,6 @@
 import 'package:auto_valley/Screens/Bike%20Details%20Page/Bike_Detail_Screen.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class CustomListItem extends StatelessWidget {
   const CustomListItem({
@@ -20,7 +21,10 @@ class CustomListItem extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 5.0),
       child: GestureDetector(
-        onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>BikeDetailScreen())),
+        onTap: ()=>Get.to(()=>BikeDetailScreen(),
+            transition: Transition.fade,
+            duration: Duration(milliseconds: 500) ,
+            curve: Curves.easeInOutSine),
         child: Material(
           elevation: 20,
           borderRadius: BorderRadius.all(Radius.circular(8)),

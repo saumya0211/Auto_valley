@@ -4,24 +4,7 @@
             "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\location\\intermediates\\merged_res\\release\\values-hu\\values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\0b777224d659d1dea48550bfee69567e\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-hu\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "235",
-                        "endOffsets": "482"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1343",
-                        "endColumns": "235",
-                        "endOffsets": "1574"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\c5253a747cd5569001ddd4474b65d8ba\\transformed\\jetified-play-services-base-16.0.1\\res\\values-hu\\values.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\27843a46f96a953d975b4bc5571462ba\\transformed\\jetified-play-services-base-16.0.1\\res\\values-hu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\67aedebeafb39cc53db31c0bc10af3df\\transformed\\core-1.6.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7daf4566b208428dd77c8fe063656788\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-hu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "235",
+                        "endOffsets": "482"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1343",
+                        "endColumns": "235",
+                        "endOffsets": "1574"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,24 +60,7 @@
             "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\location\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\0b777224d659d1dea48550bfee69567e\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-hu\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "235",
-                        "endOffsets": "482"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1343",
-                        "endColumns": "235",
-                        "endOffsets": "1574"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\c5253a747cd5569001ddd4474b65d8ba\\transformed\\jetified-play-services-base-16.0.1\\res\\values-hu\\values.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\27843a46f96a953d975b4bc5571462ba\\transformed\\jetified-play-services-base-16.0.1\\res\\values-hu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -94,7 +77,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\67aedebeafb39cc53db31c0bc10af3df\\transformed\\core-1.6.0\\res\\values-hu\\values-hu.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7daf4566b208428dd77c8fe063656788\\transformed\\jetified-play-services-basement-16.0.1\\res\\values-hu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "235",
+                        "endOffsets": "482"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1343",
+                        "endColumns": "235",
+                        "endOffsets": "1574"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\values-hu\\values-hu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -5,6 +5,7 @@ import 'package:auto_valley/models/Bike_Detail_Field_Card.dart';
 import 'package:auto_valley/models/Trip/Complaint_Report_Page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
@@ -303,7 +304,11 @@ class _TripCardState extends State<TripCard> {
                   boxBorder: Border.all(color:  Color(0xff6476fe),width: 1),
                   buttoncolor: Colors.white,
                   ButtonVoidCallBack: (){
-                   Navigator.push(context, MaterialPageRoute(builder: (context)=>ComplaintReportPage()));
+                   // Navigator.push(context, MaterialPageRoute(builder: (context)=>ComplaintReportPage()));
+                    Get.to(()=>ComplaintReportPage(),
+                        transition: Transition.fade,
+                        duration: Duration(milliseconds: 400) ,
+                        curve: Curves.easeInOutSine);
                   },
                   buttonChild: FittedBox(
                     child: Text('Add Complaint',style: TextStyle(

@@ -1,9 +1,5 @@
-import 'package:auto_valley/Screens/Home_Screen/Home_Screen.dart';
-import 'package:auto_valley/Widgets/NavButton.dart';
 import 'package:auto_valley/models/Bike_Detail_Field_Card.dart';
-import 'package:auto_valley/models/Display_Card.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SecondPage extends StatelessWidget {
 

@@ -1,16 +1,12 @@
-import 'dart:ffi';
-
 import 'package:auto_valley/Providers/Data_Provider.dart';
-import 'package:auto_valley/Providers/Location_provider.dart';
 import 'package:auto_valley/Screens/Home_Screen/Home_Screen.dart';
 import 'package:auto_valley/Screens/Menu%20Screens/Terms_and_Cond_Page.dart';
-import 'package:auto_valley/Screens/Payment_Screen.dart';
+import 'package:auto_valley/Screens/Payment_Screens/Payment_Screen.dart';
 import 'package:auto_valley/Widgets/NavButton.dart';
 import 'package:auto_valley/models/Bike_Detail_Field_Card.dart';
-import 'package:auto_valley/models/Display_Card.dart';
 import 'package:auto_valley/models/PickedColorCircle.dart';
 import 'package:flutter/material.dart';
-import 'package:geocoding/geocoding.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
@@ -36,6 +32,18 @@ class _FirstPageState extends State<FirstPage> {
   bool terms_cond = false;
   bool handling_Charge = false;
   bool helmet = false;
+  bool ? isUploadedDoc;
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    final dataPicker = Provider.of<Data>(context,listen: false);
+    if(dataPicker.aadharCard!=null && dataPicker.drivinglicence!=null && dataPicker.selfie!=null){
+      isUploadedDoc = true;
+    }else{
+      isUploadedDoc = false;
+    }
+  }
 
   late TabController tabController;
 
@@ -553,8 +561,12 @@ class _FirstPageState extends State<FirstPage> {
                                     SizedBox(width: MediaQuery.of(context).size.width/12,),
                                     Align(
                                       alignment: Alignment.topRight,
-                                      child: Text('Not Uploaded',style: TextStyle(
+                                      child: isUploadedDoc  == false ?  Text('Not Uploaded',style: TextStyle(
                                           color: Colors.red,
+                                          fontSize: 12,
+                                          fontWeight: FontWeight.w400
+                                      ),) : Text('Uploaded',style: TextStyle(
+                                          color: Colors.green,
                                           fontSize: 12,
                                           fontWeight: FontWeight.w400
                                       ),),
@@ -590,7 +602,11 @@ class _FirstPageState extends State<FirstPage> {
                                     fontSize: 12,
                                   ),),
                                   TextButton(onPressed: (){
-                                    Navigator.push(context, MaterialPageRoute(builder: (context)=>TermsAndCondPage()));
+                                    // Navigator.push(context, MaterialPageRoute(builder: (context)=>TermsAndCondPage()));
+                                    Get.to(()=>TermsAndCondPage(),
+                                        transition: Transition.fade,
+                                        duration: Duration(milliseconds: 500) ,
+                                        curve: Curves.easeInOutSine);
                                   },
                                       child: Text('Terms and Conditions',style: TextStyle(
                                         color: Color(0xff6476fe),
@@ -758,8 +774,12 @@ class _FirstPageState extends State<FirstPage> {
                         buttoncolor: Color(0xff6476fe),
                         ButtonVoidCallBack: (){
                           if(terms_cond) {
-                            Navigator.push(context, MaterialPageRoute(
-                                builder: (context) => PaymentScreen()));
+                            // Navigator.push(context, MaterialPageRoute(
+                            //     builder: (context) => PaymentScreen()));
+                            Get.to(()=>PaymentScreen(),
+                                transition: Transition.fade,
+                                duration: Duration(milliseconds: 500) ,
+                                curve: Curves.easeInOutSine);
                           }else{
                             ScaffoldMessenger.of(context).showSnackBar( SnackBar(
                               duration: Duration(seconds: 2),

@@ -32,10 +32,10 @@ class _TakePicDownScreenState extends State<TakePicDownScreen> {
         if (user != null && !user.emailVerified) {
           var actionCodeSettings = ActionCodeSettings(
             url: 'https://www.example.com/?email=${user.email}',
-            androidPackageName: 'com.example.auto_valley',
+            androidPackageName: 'com.autovally.auto_vally.auto_valley',
             androidInstallApp: true,
             androidMinimumVersion: '12',
-            iOSBundleId: 'com.example.auto_valley',
+            iOSBundleId: 'com.autovally.auto_vally.auto_valley',
             handleCodeInApp: false,
           );
 

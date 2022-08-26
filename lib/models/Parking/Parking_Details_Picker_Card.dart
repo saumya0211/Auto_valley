@@ -2,6 +2,7 @@ import 'package:auto_valley/Widgets/NavButton.dart';
 import 'package:auto_valley/Widgets/NavButtonv2.dart';
 import 'package:auto_valley/models/Parking/Parking_Details.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class ParkingDetailsPickerCard extends StatelessWidget {
  final String text;
@@ -56,7 +57,11 @@ class ParkingDetailsPickerCard extends StatelessWidget {
                   boxBorder: Border.all(color:  Color(0xff6476fe),width: 1),
                   buttoncolor: Colors.white,
                   ButtonVoidCallBack: (){
-                   Navigator.push(context, MaterialPageRoute(builder: (context)=>ParkingDetailScreen(address: text)));
+                   // Navigator.push(context, MaterialPageRoute(builder: (context)=>ParkingDetailScreen(address: text)));
+                    Get.to(()=>ParkingDetailScreen(address: text),
+                        transition: Transition.fade,
+                        duration: Duration(milliseconds: 400) ,
+                        curve: Curves.easeInOutSine);
                   },
                   buttonChild: FittedBox(
                     child: Text('View Details',style: TextStyle(

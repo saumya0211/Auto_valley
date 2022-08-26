@@ -1,11 +1,10 @@
 import 'package:auto_valley/Screens/ForgetPassword%20Page/OTP_Screen.dart';
-import 'package:auto_valley/Screens/Sign_In_Screen.dart';
 import 'package:auto_valley/Widgets/NavButton.dart';
 import 'package:auto_valley/Widgets/TextformFieldUI.dart';
-import 'package:auto_valley/models/AuthStatus.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:form_validator/form_validator.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ForgetPasswordScreen extends StatelessWidget {
@@ -29,9 +28,7 @@ class ForgetPasswordScreen extends StatelessWidget {
 
       await _auth
           .sendPasswordResetEmail(email: email)
-          .then((value) =>
-          Navigator.push(context,
-              MaterialPageRoute(builder: (context) => SignInScreen())));
+          .then((value) => Get.back);
     }on FirebaseException catch(e){
     ScaffoldMessenger.of(context).showSnackBar( SnackBar(
       duration: Duration(seconds: 2),

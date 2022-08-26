@@ -24,9 +24,7 @@
     <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/aidl_source_output_dir/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/ap_generated_sources/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/renderscript_source_output_dir/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/res/resValues/androidTest/debug">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/res/resValues/androidTest/debug" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/res/resValues/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/res/rs/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../../build/flutter_plugin_android_lifecycle/generated/source/buildConfig/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-2.0.6/android/src/androidTest" />

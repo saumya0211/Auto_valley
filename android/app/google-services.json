@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:561347207397:android:0362613aa17b16b9b7b40c",
         "android_client_info": {
-          "package_name": "com.example.auto_valley"
+          "package_name": "com.autovally.autovally"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "561347207397-e404e0u21g7jaje52vcgfpm00taee4pl.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.auto_valley",
+            "package_name": "com.autovally.autovally",
             "certificate_hash": "3a1c80694c1849f0ca0f368c59a11d03629a8f8b"
           }
         },

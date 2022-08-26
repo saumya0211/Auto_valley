@@ -4,7 +4,7 @@
             "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\geolocator_android\\intermediates\\merged_res\\release\\values-lv\\values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\b08d5845e4327ae4d1780e200008c51c\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-lv\\values.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\320c0578a830077855a9c9abb5573a36\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-lv\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\67aedebeafb39cc53db31c0bc10af3df\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\b9c76ec13d4b0882a5ecb467e48ae2f4\\transformed\\jetified-play-services-base-17.0.0\\res\\values-lv\\values.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\f141788e62db5ab1feb723a9f6fc73b1\\transformed\\jetified-play-services-base-17.0.0\\res\\values-lv\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -60,7 +60,7 @@
             "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\geolocator_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\b08d5845e4327ae4d1780e200008c51c\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-lv\\values.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\320c0578a830077855a9c9abb5573a36\\transformed\\jetified-play-services-basement-17.0.0\\res\\values-lv\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\67aedebeafb39cc53db31c0bc10af3df\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -94,7 +94,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\b9c76ec13d4b0882a5ecb467e48ae2f4\\transformed\\jetified-play-services-base-17.0.0\\res\\values-lv\\values.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\f141788e62db5ab1feb723a9f6fc73b1\\transformed\\jetified-play-services-base-17.0.0\\res\\values-lv\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

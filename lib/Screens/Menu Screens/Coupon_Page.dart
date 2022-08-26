@@ -1,5 +1,4 @@
 import 'package:auto_valley/models/Coupon_Card.dart';
-import 'package:auto_valley/models/Parking/Parking_Details_Picker_Card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

@@ -19,7 +19,7 @@ class Hyperlinks extends StatelessWidget {
       color: Colors.blue,
       decoration: TextDecoration.underline,
     ), recognizer: TapGestureRecognizer()..onTap= (){
-      launchUrl(Uri.parse(text));
+      launchUrl(Uri.parse('http://autovally.in/'),mode: LaunchMode.externalApplication);
     }),);
   }
 }

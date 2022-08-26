@@ -1,8 +1,3 @@
-import 'package:auto_valley/Screens/Home_Screen/Home_Screen.dart';
-import 'package:auto_valley/Screens/Payment_Screen.dart';
-import 'package:auto_valley/Widgets/NavButton.dart';
-import 'package:auto_valley/models/Bike_Detail_Field_Card.dart';
-import 'package:auto_valley/models/PickedColorCircle.dart';
 import 'package:auto_valley/models/Trip/Trip_Card.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

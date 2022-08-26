@@ -1,6 +1,6 @@
 import 'package:auto_valley/Providers/Data_Provider.dart';
 import 'package:auto_valley/Screens/Home_Screen/Home_Screen.dart';
-import 'package:auto_valley/Screens/Sign_Up_Screen.dart';
+import 'package:auto_valley/Screens/Welcome_and_LogIn_Up/Sign_Up_Screen.dart';
 import 'package:auto_valley/Widgets/NavButton.dart';
 import 'package:auto_valley/Widgets/TextformFieldUI.dart';
 import 'package:auto_valley/models/Semi_Circle_Create.dart';
@@ -149,7 +149,7 @@ class _ProfilePageState extends State<ProfilePage> {
                                               fontWeight: FontWeight.w400,
                                               fontSize: 12,
                                             ),
-                                            validatefunction: ValidationBuilder().maxLength(35).build(),
+                                            validatefunction: ValidationBuilder().maxLength(30).build(),
                                             onSave: (value){
                                               if(value == null){
                                                 return;

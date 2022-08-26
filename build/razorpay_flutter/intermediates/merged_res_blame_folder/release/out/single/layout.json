@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\rzp_magic_base.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\0070b34f8826975a7f0b6e7f9c738f3f\\transformed\\jetified-checkout-1.6.19\\res\\layout\\rzp_magic_base.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\wallet_test_layout.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\35c50ab13f786d2ed51b6ee39c692627\\transformed\\jetified-play-services-wallet-18.1.3\\res\\layout\\wallet_test_layout.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\custom_dialog.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\toast_custom.xml",
+        "source": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\fluttertoast\\intermediates\\packaged_res\\release\\layout\\toast_custom.xml"
+    },
+    {
+        "merged": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\layout\\rzp_loader.xml",
+        "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\0070b34f8826975a7f0b6e7f9c738f3f\\transformed\\jetified-checkout-1.6.19\\res\\layout\\rzp_loader.xml"
+    }
+]

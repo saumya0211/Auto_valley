@@ -1,9 +1,6 @@
 import 'package:auto_valley/Widgets/Hyperlinks.dart';
-import 'package:auto_valley/models/Parking/Parking_Details_Picker_Card.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class PrivacyPolicyPage extends StatelessWidget {
 

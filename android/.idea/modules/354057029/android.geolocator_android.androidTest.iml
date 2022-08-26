@@ -24,9 +24,7 @@
     <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/aidl_source_output_dir/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/ap_generated_sources/debugAndroidTest/out" />
     <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/renderscript_source_output_dir/debugAndroidTest/out" />
-    <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/res/resValues/androidTest/debug">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/res/resValues/androidTest/debug" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/res/resValues/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/res/rs/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../../build/geolocator_android/generated/source/buildConfig/androidTest/debug" />
     <content url="file://$MODULE_DIR$/../../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_android-3.2.1/android/src/androidTest" />

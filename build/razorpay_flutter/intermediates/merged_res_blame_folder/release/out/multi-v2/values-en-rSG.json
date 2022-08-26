@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\merged_res\\release\\values-en-rSG\\values-en-rSG.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\35c50ab13f786d2ed51b6ee39c692627\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-en-rSG\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\razorpay_flutter\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\35c50ab13f786d2ed51b6ee39c692627\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-en-rSG\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                }
+            ]
+        }
+    ]
+}

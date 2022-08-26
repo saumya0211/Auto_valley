@@ -1,8 +1,6 @@
-import 'package:auto_valley/Screens/Sign_In_Screen.dart';
+import 'package:auto_valley/Screens/Welcome_and_LogIn_Up/Sign_In_Screen.dart';
 import 'package:auto_valley/Widgets/NavButton.dart';
-import 'package:auto_valley/Widgets/TextformFieldUI.dart';
 import 'package:flutter/material.dart';
-import 'package:form_validator/form_validator.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pinput/pinput.dart';
 

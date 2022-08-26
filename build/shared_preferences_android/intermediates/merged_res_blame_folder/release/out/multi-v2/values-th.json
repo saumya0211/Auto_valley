@@ -4,7 +4,7 @@
             "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\shared_preferences_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-th\\values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\67aedebeafb39cc53db31c0bc10af3df\\transformed\\core-1.6.0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -19,7 +19,7 @@
             "outputFile": "D:\\App Projects\\REAL PROJECTS BAKI SAB TEMPLATE\\auto_valley\\build\\shared_preferences_android\\intermediates\\merged_res\\release\\values-th\\values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\67aedebeafb39cc53db31c0bc10af3df\\transformed\\core-1.6.0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Saumya\\.gradle\\caches\\transforms-3\\7a7e059b5a8bbc0a9d262b6d79bb5f82\\transformed\\core-1.6.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

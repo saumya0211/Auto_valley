@@ -21,9 +21,7 @@
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../build/image_picker_android/generated/ap_generated_sources/debugUnitTest/out">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../build/image_picker_android/generated/ap_generated_sources/debugUnitTest/out" isTestSource="true" generated="true" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/image_picker_android/generated/ap_generated_sources/debugUnitTest/out" />
     <content url="file://$MODULE_DIR$/../../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_android-0.8.4+13/android/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_android-0.8.4+13/android/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_android-0.8.4+13/android/src/test/resources" type="java-test-resource" />

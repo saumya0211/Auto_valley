@@ -1,4 +1,4 @@
-package com.example.auto_valley
+package com.autovally.autovally
 
 import io.flutter.embedding.android.FlutterActivity
 

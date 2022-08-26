@@ -1,11 +1,12 @@
 import 'package:auto_valley/Providers/Data_Provider.dart';
 import 'package:auto_valley/Providers/Location_provider.dart';
-import 'package:auto_valley/Screens/Confirmation_Page.dart';
+import 'package:auto_valley/Screens/Bike%20Details%20Page/Confirmation_Page.dart';
 import 'package:auto_valley/Widgets/NavButton.dart';
 import 'package:auto_valley/models/Bike_Detail_Field_Card.dart';
 import 'package:auto_valley/models/Display_Card.dart';
 import 'package:flutter/material.dart';
 import 'package:geocoding_platform_interface/src/models/placemark.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
@@ -154,9 +155,16 @@ class _BikeDetailScreenState extends State<BikeDetailScreen> {
                                  child: NavButton(
                                      buttoncolor: Color(0xff6575ff),
                                      ButtonVoidCallBack: (){
-                                      Navigator.push(context, MaterialPageRoute(builder: (context)=>ConfirmationScreen(
+                                      // Navigator.push(context, MaterialPageRoute(builder: (context)=>ConfirmationScreen(
+                                      //   address: AddressShown,
+                                      //   pincode: PinCode,)));
+
+                                      Get.to(()=>ConfirmationScreen(
                                         address: AddressShown,
-                                        pincode: PinCode,)));
+                                        pincode: PinCode,),
+                                          transition: Transition.fade,
+                                          duration: Duration(milliseconds: 500) ,
+                                          curve: Curves.easeInOutSine);
                                      },
                                      buttonChild: FittedBox(
                                        child: Text('Book Now',style: GoogleFonts.openSans(
